@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 
-    @RequestMapping("/hello")
+    @RequestMapping("/hello.do")
     public String hello(Model model){
         model.addAttribute("greeting", "안녕하세요");
-        return "/WEB-INF/hello.jsp";
+        return "hello";
     }
 }
