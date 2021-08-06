@@ -33,7 +33,7 @@
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>
-                config.MvcQuickStartConfig
+                config.WebConfig
             </param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
@@ -41,7 +41,7 @@
 
     <servlet-mapping>
         <servlet-name>dispatcher2</servlet-name>
-        <url-pattern>*.do2</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 
     <filter>
